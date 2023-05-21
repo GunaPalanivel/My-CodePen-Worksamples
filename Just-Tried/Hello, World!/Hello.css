@@ -1,0 +1,27 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #000033;
+  color: #fff;
+}
+
+body.dark-mode h1 {
+  text-shadow: 2px 2px 4px #000033;
+}
